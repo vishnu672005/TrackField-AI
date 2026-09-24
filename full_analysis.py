@@ -265,7 +265,7 @@ def extract_biomechanics(frame_bgr):
 
     with mp_pose.Pose(
         static_image_mode=True,
-        model_complexity=2,
+        model_complexity=1,
         min_detection_confidence=0.4
     ) as pose:
         rgb.flags.writeable = False
