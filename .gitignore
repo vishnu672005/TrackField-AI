@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Uploaded videos
+uploads/
+
+# Generated outputs
+outputs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.dbvideos/
+videos/
